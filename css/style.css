@@ -1,0 +1,359 @@
+ body {
+     font-family: arial;
+     font-size: 0.6em;
+     background: white;
+     margin: auto;
+ }
+ /*  citaterne   */
+ 
+ #overskriftcitater {
+     text-align: center;
+     font-family: 'Stint Ultra Expanded', cursive;
+     font-weight: bold;
+     font-size: 45px;
+     color: #506451;
+     margin-top: 5%;
+ }
+ 
+ .citat {
+     color: black;
+     font-size: 2.3em;
+     text-align: left;
+     list-style: none;
+     margin-left: 1%;
+     margin-right: 5%;
+     margin-top: 8%;
+     width: 50%;
+     font-family: 'Alegreya Sans', sans-serif;
+ }
+ 
+ .citat>li {
+     margin-top: 8%;
+ }
+ 
+ #baggrundsbillede {
+     background-image: url("../images/hus1.png");
+     background-repeat: no-repeat;
+     background-position: right;
+     margin: 5%;
+ }
+ /*  video 1   */
+ 
+ #video {
+     width: 100%;
+     position: relative;
+     margin-top: 5%;
+     top: 0;
+     left: 0;
+     z-index: -5;
+ }
+ /*  video 2   */
+ 
+ #videofag {
+     width: 100%;
+     position: relative;
+     ;
+     margin-top: 0%;
+     top: 0;
+     left: 0;
+     z-index: -5;
+     object-fit: cover;
+ }
+ 
+ .verelse {
+     width: 45%;
+     margin: 5%;
+ }
+ 
+ .kunst {
+     width: 45%;
+     margin: 5%;
+ }
+ 
+ .eriksminde {
+     width: 45%;
+     font-size: 2em;
+     color: black;
+     padding: 5%;
+ }
+ 
+ .eriksmindeto {
+     width: 45%;
+     font-size: 2em;
+     color: black;
+     padding: 5%;
+ }
+ /*  tekst og billeder afsnittet - billeder med tilhørende tekst   */
+ 
+ #tekstogbillede {
+     align-items: stretch;
+     display: inline-flex;
+     margin-top: 5%;
+     font-family: 'Alegreya Sans', sans-serif;
+ }
+ 
+ #tekstogbilledeto {
+     display: inline-flex;
+     font-family: 'Alegreya Sans', sans-serif;
+ }
+ 
+ .interview {
+     position: relative;
+     height: 100%;
+     max-width: 100%;
+     margin-top: 10%;
+ }
+ 
+ .felleskab {
+     width: 100%;
+     margin-top: 5%;
+ }
+ 
+ .fag {
+     position: relative;
+     height: 100%;
+     max-width: 100%;
+ }
+ 
+ #gif {
+     width: 100%;
+     margin-bottom: 10%;
+     display: block;
+     margin: auto;
+ }
+ /*  gif parrallax   */
+ 
+ .container {
+     width: 100%;
+     margin: auto;
+     color: #333;
+     text-align: center;
+ }
+ 
+ .between {
+     height: 20rem;
+     position: relative;
+ }
+ 
+ .container .pa {
+     background-image: url("../images/eriksmindelever.gif");
+ }
+ 
+ .container .parallax {
+     width: 100%;
+     padding: 40rem 0;
+     position: relative;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top center;
+     background-attachment: fixed;
+     overflow: hidden;
+ }
+ /*  Videoparallax   */
+ 
+ .containerto {
+     width: 100%;
+     margin: 0 auto;
+     color: #333;
+     text-align: center;
+     letter-spacing: 1rem;
+     text-transform: uppercase;
+ }
+ 
+ .betweento {
+     height: 20rem;
+     position: relative;
+ }
+ 
+ .containerto .pa {
+     background-image: url("../images/felleskab.jpg");
+ }
+ 
+ .containerto .parallaxto {
+     width: 100%;
+     padding: 40rem 0;
+     position: relative;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top center;
+     background-attachment: fixed;
+     overflow: hidden;
+ }
+ /*  overskrifterne til tekstfelter   */
+ 
+ #overskrift1 {
+     font-family: 'Stint Ultra Expanded', cursive;
+     color: #506451;
+     font-size: 45px;
+     margin-top: 0%;
+     margin-bottom: 4%;
+ }
+ 
+ #overskrift2 {
+     font-family: 'Stint Ultra Expanded', cursive;
+     color: #506451;
+     font-size: 40px;
+     margin-top: 0%;
+     margin-bottom: 4%;
+ }
+ /*  kontakt knappen og input formen  */
+ 
+ #kontaktside {
+     margin-top: 35%;
+ }
+ 
+ #teksttilkontakt {
+     font-size: 20px;
+     text-align: center;
+     padding-top: 40px;
+     font-family: 'Alegreya Sans', sans-serif;
+ }
+ /* style af knappen */
+ 
+ button {
+     font-size: 20px;
+     border-radius: 20px;
+     border-color: #000000;
+     padding: 10px 30px;
+     font-family: 'Alegreya Sans', sans-serif;
+     margin-bottom: 2%;
+     margin-top: 2%;
+     display: block;
+     margin: auto;
+ }
+ 
+ button:hover {
+     background-color: #506451;
+     color: white;
+     border-color: white;
+ }
+ /* style af inputform */
+ 
+ #knap {
+     background-color: rgb(210, 224, 208);
+     border: none;
+     padding: 10px 15px;
+     text-align: left;
+     color: black;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 4px 2px;
+     cursor: pointer;
+     border-radius: 20px;
+     margin-left: 25%;
+     font-family: 'Signika', sans-serif;
+     margin-right: 25%;
+ }
+ /*   indholdet af inputformen  */
+ 
+ * {
+     box-sizing: border-box;
+ }
+ 
+ input[type=text],
+ select,
+ textarea {
+     width: 100%;
+     padding: 10px;
+     border: 1px solid #cccccc;
+     border-radius: 4px;
+     resize: vertical;
+ }
+ 
+ label {
+     padding: 12px 12px 12px 0;
+ }
+ 
+ input[type=submit] {
+     background-color: #ffffff;
+     color: #000000;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     float: right;
+     margin-top: 30%;
+ }
+ 
+ input[type=submit]:hover {
+     background-color: #506451;
+ }
+ 
+ .containerkontakt {
+     border-radius: 5px;
+     display: block;
+     margin: auto;
+     height: 500px;
+ }
+ 
+ .col-25 {
+     float: left;
+     width: 20%;
+     margin-top: 6px;
+ }
+ 
+ .col-75 {
+     float: left;
+     width: 75%;
+     margin-top: 5%;
+ }
+ /* Clear floats after the columns */
+ 
+ .row:after {
+     display: table;
+     clear: both;
+ }
+ 
+ margin-top:
+ /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+ 
+ @media screen and (max-width: 600px) {
+     .col-25,
+     .col-75,
+     input[type=submit] {
+         width: 100%;
+         margin-top: 30%;
+     }
+ }
+ /* footer */
+ 
+ #footer {
+     background-color: #506451;
+     bottom: 0;
+     margin-top: 5%;
+     margin-bottom: 0%;
+ }
+ 
+ #facebook {
+     max-width: 5%;
+ }
+ 
+ #youtube {
+     max-width: 5%;
+     margin-right: 5%;
+ }
+ 
+ #instagram {
+     max-width: 5%;
+     margin-left: 5%;
+ }
+ 
+ #containerfooter {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     justify-content: center;
+     padding-top: 2%;
+     padding-bottom: 2%;
+ }
+ 
+ #footertekst {
+     color: white;
+     font-size: 20px;
+     padding-bottom: 2%;
+     margin-block-end: 0em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     text-align: center;
+ }
